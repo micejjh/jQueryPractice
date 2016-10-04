@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>hahaha</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js" charset="utf-8"></script>
+    <script type="text/javascript">
+
+    //13-1, 13-2, 13-3, 13-4
+    /*
+    $(document).ready(function(){
+      alert('First READY');
+    });
+
+    $(document).ready(function(){
+      alert('Second READY');
+    });
+
+    $(document).ready(function(){
+      alert('Third READY');
+    });
+
+    $(function(){
+      alert('First READY');
+    });
+
+    $(function(){
+      alert('Second READY');
+    });
+
+    $(function(){
+      alert('Third READY');
+    });
+    */
+    //13-5, 13-6, 13-7, 13-8, 13-9, 13-10, 13-11
+    $(document).ready(function() {
+      $('h1,h3').css('color', 'Red');
+    });
+
+    $(document).ready(function() {
+      $('#target1').css('color', 'Purple');
+    });
+
+    $(document).ready(function() {
+      $('h2#target2').css('color', 'Orange');
+    });
+
+    // $(function(){
+    //   $('h2').css('color', 'Blue');
+    // });
+    </script>
+
+  </head>
+  <body>
+    <h1>AAAAAAAA</h1>
+    <h2>BBBBBBBB</h2>
+    <h3>CCCCCCCC</h3>
+    <h1 id="target1">HEADER-1</h1>
+    <h2 id="target2">HEADER-2</h2>
+  </body>
+</html>
